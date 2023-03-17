@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/edt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="About"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deadline"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/my_status" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Save" />
+
+
+</LinearLayout>

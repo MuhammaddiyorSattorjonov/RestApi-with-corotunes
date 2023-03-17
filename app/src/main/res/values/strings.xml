@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RestApi with corotunes</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>
